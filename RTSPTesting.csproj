@@ -5,6 +5,13 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <UserSecretsId>3250c341-28a3-4ddd-bf70-1f5c4beeea88</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.5" />
+	<PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="9.0.5" />
+
+  </ItemGroup>
 
 </Project>
